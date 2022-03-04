@@ -1,0 +1,22 @@
+.btn {
+	background-color: white;
+	padding: 30px 90px;
+	border-radius: 4px;
+	color: black;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+#btn:hover {
+	background-color: #b2993e
+}
+.btn2 {
+	background-color: rgb(0,80,0);
+	padding: 40px 50px;
+	color: white;
+	border-radius: 8px;
+	margin: 8px;
+	transition: background-color 0.3s ease;
+}
+.btn2:hover {
+	background-color: #b2993e
+}

@@ -1,0 +1,39 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 300px;
+}
+.card {
+	padding: 8px;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 6px;
+	margin: 8px;
+	flex-basis: 300px;
+	flex-grow: 1;
+}
+.card img {
+	height: 200px;
+	border-radius: 8px;
+	margin: 8px;
+}
+.card h1 {
+	flex-grow: 1;
+	font-size: 32px;
+}
+#title {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	margin: 0px 300px;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+@media (max-width: 1000px) {
+	.card img {
+	height: 200px;
+	width: 200px
+}
+}

@@ -1,0 +1,23 @@
+.banner {
+	background-image: linear-gradient(0deg, rgba(0,80,0,0.8) 20%, rgba(0,100,100,0.4) 90%), url(../../images/money.jpg);
+	color: white;
+	padding: 130px 0px;
+	background-size: cover;
+	background-position: center;
+}
+.banner h1 {
+	font-size: 120px;
+	font-weight: bold;
+	margin-bottom: -60px;
+}
+@media (max-width: 800px) {
+	.banner h1 {
+	font-size: 90px;
+	}
+}
+.banner h4 {
+	font-size: 50px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 100px;
+}
